@@ -18,7 +18,7 @@ const client = function(mozaik) {
             refreshToken: config.get('reddit.refreshToken')
         });
 
-        return r.getSubreddit('aww').getHot();
+        return r.getSubreddit(subreddit).getHot();
     }
 
     const apiCalls = {
