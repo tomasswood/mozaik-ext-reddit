@@ -1,0 +1,88 @@
+{
+  "author": {
+    "name": "Thomas Wood",
+    "url": "https://github.com/tomasswood"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "bluebird": "^3.5.0",
+    "chalk": "^2.0.1",
+    "convict": "^4.0.0",
+    "react-mixin": "^3.0.5",
+    "reflux": "^6.4.1",
+    "snoowrap": "^1.14.1",
+    "superagent": "^3.5.2",
+    "superagent-bluebird-promise": "^4.2.0"
+  },
+  "deprecated": false,
+  "description": "Mozaik For Reddit widget",
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-register": "6.24.1",
+    "coveralls": "2.13.1",
+    "enzyme": "2.9.1",
+    "eslint": "4.2.0",
+    "eslint-plugin-react": "7.1.0",
+    "mockery": "2.1.0",
+    "nock": "9.0.14",
+    "nyc": "11.0.3",
+    "react": "^15.6.1",
+    "sinon": "2.3.8"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": ">=3.0.0"
+  },
+  "homepage": "https://github.com/tomasswood/mozaik-ext-reddit",
+  "keywords": [
+    "reddit",
+    "mozaik",
+    "widget",
+    "extension",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "main": "./src/components/index.js",
+  "name": "mozaik-ext-reddit",
+  "nyc": {
+    "extension": [
+      ".jsx"
+    ]
+  },
+  "peerDependencies": {
+    "mozaik": ">=1.4.2",
+    "react": "^0.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomasswood/mozaik-ext-reddit.git"
+  },
+  "version": "0.0.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.12.x",
+        "npm": ">=3.0.0"
+      },
+      "pkgid": "mozaik-ext-reddit@0.0.1"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.12.x",
+        "npm": ">=3.0.0"
+      },
+      "pkgid": "mozaik-ext-reddit@0.0.1"
+    }
+  ]
+}
